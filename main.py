@@ -4,7 +4,7 @@ import Tenant
 
 #creating owners
 Dinesh = Owner.Owner("Dinesh")
-Dishal = Owner.Owner("Dishal")
+Dishal = Owner.Owner("Dishal") 
 
 trail = 1
 #creating houses
@@ -162,6 +162,7 @@ Logins={
     1:TenantLogin,
     2:OwnerLogin
 }
+
 #driver code
 while True:
     print("Enter \n 1.TenantLogin \n 2.OwnerLogin")
